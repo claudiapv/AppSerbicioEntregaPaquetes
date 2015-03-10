@@ -24,13 +24,11 @@ namespace App.Modelo
          {
             this.CostoEnvioNoche = "4000";
          }
-        #endregion
+        
         public OvernightPackage(string CostoEnvioNoche)
          {
-             this.CostoEnvioNoche = "4000";
-
-
-
+             this.CostoEnvioNoche = CostoEnvioNoche;
          }
+        #endregion
     }
 }

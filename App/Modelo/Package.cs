@@ -67,12 +67,18 @@ namespace App.Modelo
         }
         #endregion
 
+        public void CalculateCost()
+        {
+            throw new System.NotImplementedException();
+
+        }
+
 
         #region "Constructor"
         public Package()
          {
              this.Codigo = "123";
-             this.Nombre = "Caroline Castañeda";
+             this.Nombre = "Caroline";
              this.Dirección = "San Fernando";
              this.Ciudad = "Cartagena";
              this.Departamento = "Bolivar";

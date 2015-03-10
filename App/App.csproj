@@ -69,13 +69,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\BillsRepositore.cs" />
     <Compile Include="Modelo\Customers.cs" />
     <Compile Include="Modelo\OvernightPackage.cs" />
     <Compile Include="Modelo\Package.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
     <Folder Include="Web\" />
   </ItemGroup>
   <PropertyGroup>
